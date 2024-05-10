@@ -6272,7 +6272,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/AOS_rates.txt",
-      "hash": "6bd60e5e6ad280d84fbf45c218b310884bd1565d745660b756c2110b04c4ecbf",
+      "hash": "bcbe2997c5c9d9b648cf4bac0ff7f5abe360c5dbbe1da607a567912398587219",
       "title": "AOS Rates",
       "firmware_version": [
         "4.3",
@@ -6382,7 +6382,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "9b61bc3d7a54f7faca38c64fc66fbcd6445fcfdd602add44645272ea97768a3a",
+      "hash": "e92ad3f989fefc30162029722e4895c29846f387060b12999ca3152176710ae0",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6403,7 +6403,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_5_tune.txt",
-      "hash": "eee32266ee035e3ca3d4f6f8274c20d73c0722c59f11f9671e428916a4e776e3",
+      "hash": "d510ae10f05e926da07d32ad292cfbfc0f97a776957a3fdddc68e9300a03ba43",
       "title": "AOS 5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
