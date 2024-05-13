@@ -223,6 +223,7 @@
       "2in",
       "2ms",
       "2S",
+      "3",
       "3 inch",
       "3.5",
       "3.5in",
@@ -4252,6 +4253,28 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.4/filters/aos_rc/aos_t3_filters.txt",
+      "hash": "339eb22eda3e2150ee2e99f03f688edeb92c3ed72aa8da27fa6a8eefd4623090",
+      "title": "AOS T3",
+      "firmware_version": [
+        "4.4",
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "T3",
+        "3"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.4/filters/aos_rc/aos_ul5_filters.txt",
       "hash": "2ef55826a5e6f09874728710bc2b71705f8990cf68dcfcf181adecd07875f8d5",
       "title": "AOS UL5 Filters",
@@ -4733,6 +4756,29 @@
         "pid",
         "tune",
         "lr5"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/aos_rc/aos_t3_tune.txt",
+      "hash": "b1e1b96df67df9e93e68f86bf6eb79c8c6595f84d6ed8a4c529124080d566058",
+      "title": "AOS T3 tune by Chris Rosser",
+      "firmware_version": [
+        "4.4",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "T3",
+        "3"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -5778,6 +5824,27 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_t3_filters.txt",
+      "hash": "7d4ce64b7a64141ea9de61c6bfe642352b96de7187961d8148fa7c830f9126bf",
+      "title": "AOS T3 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "T3",
+        "3"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul5_filters.txt",
       "hash": "4248ae596b9df2b204ffc60a596baf3b62dc61ab9c1b1b5cf71f35d5d8ca1dc1",
       "title": "AOS UL5 Filters",
@@ -6522,6 +6589,28 @@
         "pid",
         "tune",
         "lr5"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_t3_tune.txt",
+      "hash": "ba22231acb9a9a42c21c454bc0cd4d455d786a995a9d7f8647736615abd8b531",
+      "title": "AOS T3 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "T3",
+        "3"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
