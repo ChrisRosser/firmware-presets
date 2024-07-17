@@ -5725,13 +5725,13 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_65mm_filters.txt",
-      "hash": "dbe48c4cd007969d203d2112c23559ebb07685180b356758b7b04083403055a7",
+      "hash": "b77ddbf5f7c4748a1cea1103793e0c6628c15fbe8819d188ac7e1d7fe256faf2",
       "title": "AOS 65mm Filters",
       "firmware_version": [
         "4.5"
       ],
       "category": "FILTERS",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "filter",
         "filters",
@@ -6513,13 +6513,13 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_65mm_tune.txt",
-      "hash": "5e7eb59c365d8eaad232138cc877b2f1db51318c76a32547e0e8937973de112e",
+      "hash": "3d4ab1ff39a70902bcf256c56f6ee35ac8d95417f3a8b8bea72864ee4438d2b0",
       "title": "65mm Tiny whoop tune by Chris Rosser",
       "firmware_version": [
         "4.5"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "aos",
         "chris",
