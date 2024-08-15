@@ -374,6 +374,7 @@
       "Headsup",
       "HighKV",
       "hot",
+      "HS5",
       "HV",
       "IllusionFpv",
       "immersion",
@@ -4565,7 +4566,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_3.5_tune.txt",
-      "hash": "9f47e9798b02ca02b554c9a98f231b13a6e82d1c883484ad0e6797cc289f95e4",
+      "hash": "8db6d6fe872b054b499c46d12239f0051a756b902e42538ffc674e0a030c781a",
       "title": "AOS 3.5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4587,7 +4588,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_4_tune.txt",
-      "hash": "02f2711e09da9c9aaba0ed94a100d576628336089904e3e756a3bd9f39ee0137",
+      "hash": "e08a30d4d8450806840df2906b5360d230b9dcc8b66bbd3575663f3dbfc14db9",
       "title": "AOS 4 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4609,7 +4610,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "b229ae3eb9052cf8fedffdbbaa02ecd1d1a562a762153f1aef2217e12979a155",
+      "hash": "0689bb5a1717f34668116cbd1c33eea79bed39743e0d3e0231085781c750db19",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4631,7 +4632,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_5_tune.txt",
-      "hash": "b62b71c0bbbeb974b22ecfdbd44fb5ea1c82d357370d2b5de1fefb97dd2c0853",
+      "hash": "95233e78da485b05393377b7b6a49422942c6cbfc8d0d83408015a015275abf5",
       "title": "AOS 5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4653,7 +4654,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_7_tune.txt",
-      "hash": "1e35066c0dc9f61e59bb74d127011d3fdeffd9b05153a5958888b6e5c6ab0a77",
+      "hash": "c1da19f8dbde0103c4c15d6288413d95f94dc3077b7bdcab7f1b7376c4f79774",
       "title": "AOS 7 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4675,7 +4676,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_cine25_tune.txt",
-      "hash": "e853d63ac6580a1ddfb884f83148294b4313b064088c37535615184432c4a9a6",
+      "hash": "8f2595dca2b529f9e1162605fad26be5c80285544eccf3ca52abe2b0a3554154",
       "title": "AOS Cine25 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4697,7 +4698,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_cine35_tune.txt",
-      "hash": "9ed85dc6e0cd63797a5f2860c2f0d5f3f2f17bdf83547e470bfb4b34fce9c21b",
+      "hash": "554e9c62338e8beffa233cbf6894148c447099cd976c3ff201940033b18b9087",
       "title": "AOS Cine35 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4719,7 +4720,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_cine80_tune.txt",
-      "hash": "07f2a40680739b1e58bcce7706cf8e68bc123311e4441dc88a39aef7177a2a93",
+      "hash": "9cc7b272736578ecff5d61abb750516581e7e4ff45165e74845b9e6755867ad6",
       "title": "AOS Cine80 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4741,7 +4742,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_lr5_tune.txt",
-      "hash": "40295d19f2fdca73359457e8281bc4b90ef80a150cc8b0454385c3f80eb70318",
+      "hash": "914db2785815cef5c66d0255a1ab889a369cb2bc23213f9613b6e9eff38910c2",
       "title": "AOS LR5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4786,7 +4787,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_ul5_tune.txt",
-      "hash": "a060a2c849f4574a698b376991ee7a54c801f398393a9c806f060602d4b094d8",
+      "hash": "70779c284c9dd996a26e2cd8da4b00037fe349e850696e8686156a61b0170ccc",
       "title": "AOS UL5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -4808,7 +4809,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_ul7_tune.txt",
-      "hash": "5a69c0723d2fd091bb5aa90b7d8a95d17b51e06c4e6da00ec3fedfbc8ca5b23d",
+      "hash": "0cdd5ad26b54a4347670a87beb54ee413b8d9e75906597895e32bf35a1d524fd",
       "title": "AOS UL7 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -5826,6 +5827,26 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_hs5_filters.txt",
+      "hash": "0762d1d723438b57cfe40e67c471497d76157093689edb41884497fb03536edc",
+      "title": "AOS HS5 200mph Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "HS5"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_lr5_filters.txt",
       "hash": "8afe16726d007325771fe8bc5b2d14fb205f1fa2efd7e072c98600a1b38b15f0",
       "title": "AOS LR5 Filters",
@@ -6429,7 +6450,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_3.5_tune.txt",
-      "hash": "e6b330d87ea1ab1ebbef58d2c33eed11b13c15504c0116e3ead89186b388b905",
+      "hash": "41bf642ddcb7498324d14f403967b69eddaa5927485554842071256df6a268b1",
       "title": "AOS 3.5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6450,7 +6471,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_4_tune.txt",
-      "hash": "b7a3b9614aeb1fa363f3968dc2ed26e2b0f54bcd2ad5fcd69af32580d860176c",
+      "hash": "762eb0617876b6cec2c181d4ccffe1186a6c87ab59e32f2dbe4338e1bf5bc1e8",
       "title": "AOS 4 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6471,7 +6492,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "e92ad3f989fefc30162029722e4895c29846f387060b12999ca3152176710ae0",
+      "hash": "6e947f8d3954f32b21b01eaf17829617a444c1ccc316694cadae0e90444368b2",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6492,7 +6513,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_5_tune.txt",
-      "hash": "d510ae10f05e926da07d32ad292cfbfc0f97a776957a3fdddc68e9300a03ba43",
+      "hash": "7df36ec398f75dbff65c556a5f3f9af39ca0f67e21901eba7e457d927ebe2506",
       "title": "AOS 5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6536,7 +6557,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_7_tune.txt",
-      "hash": "b5c51b26a36fdada6f30c6d94f6ea8f7c122242f9b33f64e2631b191cbbc9553",
+      "hash": "ddb49289ed6cbfb12219d2bd27c0a634c3904b89fb6ee3ad0968771f7791c05a",
       "title": "AOS 7 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6557,7 +6578,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine25_tune.txt",
-      "hash": "3d5ea97ae3bb947277a47d672a75c0b914de2363fde1f9d9fd23957a2a4c9a8b",
+      "hash": "4f3c4d745a9447df6605df1f3a0a98f385d973243a2a736c2fb5f291dfaea761",
       "title": "AOS Cine25 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6578,7 +6599,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine35_tune.txt",
-      "hash": "415b2e5018cdfca02d8a2ecf2952881c41d8784bf462f61c02effcb7720c2f61",
+      "hash": "1c0d793aa2c83ea4a6271eed92b138f53fd4194b8a3ff7a6635aac30da938e2c",
       "title": "AOS Cine35 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6599,7 +6620,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine80_tune.txt",
-      "hash": "33db2785323b928a1368b98c36b2aa3af261f0cd23287a41b7cdc73c52ef0fd1",
+      "hash": "5931aa123c704067764b82573a5d30e07992c9929265807e966c7701bc82bde9",
       "title": "AOS Cine80 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6619,8 +6640,29 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_hs5_tune.txt",
+      "hash": "3367d8bfab185a412067ccae0eb27cf99e6775e074d97b7fa6ab5f0ef1bffd64",
+      "title": "AOS HS5 200mph tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "HS5"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/aos_rc/aos_lr5_tune.txt",
-      "hash": "f32888676ae4a0d50bd8e635e53bad75cc73ef1db7f674255d1c9495cfdc0ddc",
+      "hash": "d47f50f1981194ced80ace771152d57c2f34a2848f71da067d8f7e7f7bdbd065",
       "title": "AOS LR5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6663,7 +6705,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_ul5_tune.txt",
-      "hash": "3808470507cdc72c8f940a884dd0120bc64279cc04287911d20328b1c4e1d850",
+      "hash": "e760a4049d390838f91aa9b80d783a0c898b53d7d1bbe27616b202fe1d7fe856",
       "title": "AOS UL5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6684,7 +6726,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_ul7_tune.txt",
-      "hash": "01fc785b096b398df742cb8a2154a44ec7a4c289db554660655ed2384022afef",
+      "hash": "412a5933967c221e6a08956a647512239e6a09b0fec49bb5cdeac87e6af4d316",
       "title": "AOS UL7 tune by Chris Rosser",
       "firmware_version": [
         "4.5"

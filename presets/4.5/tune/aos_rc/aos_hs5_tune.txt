@@ -1,13 +1,13 @@
-#$ TITLE: AOS 5 tune by Chris Rosser
+#$ TITLE: AOS HS5 200mph tune by Chris Rosser
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
-#$ KEYWORDS: aos, chris, rosser, pid, tune, 5
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: aos, chris, rosser, pid, tune, HS5
 #$ AUTHOR: Chris Rosser
 #$ DISCUSSION: https://www.aos-rc.com
-#$ DESCRIPTION: Custom Tune for the AOS 5. Based on a 1100mAh 6S build with 1800KV Motors.
+#$ DESCRIPTION: Custom Tune for the AOS HS5. Based on a 1800mAh 6S build with 2808 1950KV Motors.
 #$ DESCRIPTION:
-#$ DESCRIPTION: Master multiplier is set to 1.2 for safety. Increase it carefully to further improve flight performance.
+#$ DESCRIPTION: Master multiplier is set to 1.0 for safety. Increase it carefully to further improve flight performance. If running 8S on 2808 1950KV motors Master multiplier may neede to be decreased slightly.
 #$ DESCRIPTION:
 #$ DESCRIPTION: RPM filtering is MANDATORY!
 #$ DESCRIPTION:
@@ -21,23 +21,12 @@
 
 # -- PID values --
 
-set p_pitch = 70
-set i_pitch = 125
-set d_pitch = 55
-set f_pitch = 194
-set p_roll = 67
-set i_roll = 119
-set d_roll = 47
-set f_roll = 187
-set p_yaw = 67
-set i_yaw = 119
-set f_yaw = 187
-set d_min_roll = 35
-set d_min_pitch = 40
-set d_max_advance = 0
-set simplified_master_multiplier = 120
-set simplified_pi_gain = 125
-set simplified_feedforward_gain = 130
+set d_min_pitch = 30
+set simplified_pi_gain = 110
+set simplified_feedforward_gain = 90
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 95
+set tpa_breakpoint = 1000
 
 # -- iTerm relax (default)--
 # -- iTerm windup (default)--
@@ -45,6 +34,7 @@ set simplified_feedforward_gain = 130
 
 # -- Dmax --
 set d_max_advance = 0
+set simplified_dmax_gain = 0
 
 # -- TPA --
 
@@ -80,24 +70,7 @@ set dyn_idle_p_gain = 40
 
 #$ OPTION_GROUP BEGIN: Filters
     #$ OPTION BEGIN (CHECKED): AOS Filters (Recommended)
-    #$ INCLUDE: presets/4.5/filters/aos_rc/aos_5_filters.txt
-    #$ OPTION END
-    
-    #$ OPTION BEGIN (CHECKED): RPM Filter Weights for triblade props
-        set rpm_filter_weights = 100, 0, 80
-    #$ OPTION END
-
-    #$ OPTION BEGIN (UNCHECKED): RPM Filter Weights for other props
-        set rpm_filter_weights = 100, 100, 100
-    #$ OPTION END
-
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: Motors
-    #$ OPTION BEGIN (UNCHECKED): Supernova Motors (reduce master and add throttle expo)
-        set simplified_master_multiplier = 100
-        set thr_mid = 0
-        set thr_expo = 33
+    #$ INCLUDE: presets/4.5/filters/aos_rc/aos_hs5_filters.txt
     #$ OPTION END
 #$ OPTION_GROUP END
 
